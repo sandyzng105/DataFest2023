@@ -13,8 +13,10 @@ import re
 lemmatizer = WordNetLemmatizer()
 stemmer = PorterStemmer()
 
-banWords = ['also', 'back', 'even', 'get', 'help', 'know', 'let', 'like', 'make', 'need',
-            'one', 'please', 'since', 'sure', 'though', 'told', 'want', 'would']
+banWords = ['able', 'also', 'appreciate', 'back', 'best', 'bono', 'even', 'free', 'get', 'good',
+            'greatly', 'help', 'helps', 'hope', 'information', 'know', 'let', 'like', 'luck',
+            'make', 'may', 'much', 'need', 'next', 'please', 'pro', 'since', 'sorry', 'sure',
+            'take','thank', 'time', 'times', 'though', 'told', 'want', 'went', 'wishes', 'would']
 
 def preprocess(sentence):
     sentence = str(sentence)
